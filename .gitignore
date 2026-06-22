@@ -1,0 +1,38 @@
+# Secrets and env (NEVER commit)
+.env
+.env.*
+!.env.example
+*.pem
+.aws/
+credentials
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / React / Vite
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.local
+
+# Build / logs / OS
+build/
+*.log
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Fly.io
+.fly/
+fly.toml.bak
